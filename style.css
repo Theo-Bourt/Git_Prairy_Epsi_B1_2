@@ -1,0 +1,81 @@
+.page-anthonin h1{
+    background-color: rgb(28, 106, 207);
+    color:white;
+    padding: 10px;
+}
+
+.lien a{
+    background-color: blanchedalmond;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: None;
+    color: red;
+}
+
+.lien a:visited{
+    color:black;
+}
+
+.page-anthonin .lien-Activités:hover{
+    color: palevioletred;
+}
+
+.page-anthonin .lien-Expériences:hover{
+    color: orange;
+}
+
+.page-anthonin .lien-Passion:hover{
+    color: yellow;
+}
+
+.page-anthonin .lien-Qualités:hover{
+    color: purple;
+}
+
+.page-anthonin .lien-Contact:hover{
+    color: cyan;
+}
+
+.page-anthonin .lien-Retour:hover{
+    color: magenta;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.page-anthonin h2{
+    display: inline-block;
+    background-color: rgb(28, 106, 207);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-anthonin .Description h2:hover{
+    color: pink;
+}
+
+.page-anthonin .Activités h2:hover{
+    color: palevioletred;
+}
+
+.page-anthonin .Expériences h2:hover{
+    color: orange;
+}
+
+.page-anthonin .Passion h2:hover{
+    color: yellow;
+}
+
+.page-anthonin .Qualités h2:hover{
+    color: purple;
+}
+
+.page-anthonin .Contact h2:hover{
+    color: cyan;
+}
+
