@@ -1,0 +1,17 @@
+.imgLola{
+    width: 200px;
+}
+.tableau{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding:5px;
+
+}
+.presentation{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
