@@ -91,6 +91,9 @@
 }
 
 
+
+
+
 .page-mahe .RETOUR {
     text-decoration: none;
     display: inline-block;
@@ -139,9 +142,6 @@
     color: rgb(0, 0, 0);
     text-align: center;
 }
-
-
-
 .page-mahe section {
     max-width: 800px;
     margin: 20px auto; 
@@ -175,7 +175,6 @@
     text-align: center;
     transition: all 0.3s ease;
 }
-
 .page-mahe .Activités_Mahe:hover,
 .page-mahe .Expériences_Mahe:hover,
 .page-mahe .Passion_Mahe:hover,
@@ -183,6 +182,3 @@
     transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
-
-
-
