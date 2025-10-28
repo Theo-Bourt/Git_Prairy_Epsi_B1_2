@@ -1,5 +1,5 @@
 .page-anthonin h1{
-    background-color: rgb(28, 106, 207);
+    background-color: rgb(128, 0, 32);
     color:white;
     padding: 10px;
 }
@@ -8,6 +8,7 @@
     background-color: blanchedalmond;
     display: inline-block;
     border-radius: 10px;
+    border: solid;
     padding: 10px;
     text-decoration: None;
     color: red;
@@ -47,7 +48,7 @@ li{
 
 .page-anthonin h2{
     display: inline-block;
-    background-color: rgb(28, 106, 207);
+    background-color: rgb(128, 0, 32);
     color: white;
     border-radius: 30px;
     padding: 10px;
@@ -79,3 +80,13 @@ li{
     color: cyan;
 }
 
+.page-anthonin .Contact{
+    background-color: rgb(128, 0, 32);
+    color: white;
+    text-align: center;
+}
+
+.page-anthonin .Contact a{
+    background-color: black;
+    
+}
