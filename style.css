@@ -4,14 +4,22 @@
     padding: 10px;
 }
 
-.lien a{
-    background-color: blanchedalmond;
+.page-anthonin .lien {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.page-anthonin .lien a{
     display: inline-block;
-    border-radius: 10px;
-    border: solid;
-    padding: 10px;
-    text-decoration: None;
+    background-color: antiquewhite;
     color: red;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid red;
+    text-decoration: None;
 }
 
 .lien a:visited{
@@ -87,6 +95,52 @@ li{
 }
 
 .page-anthonin .Contact a{
+    display: grid;
+    display: inline-block;
+    background-color: white;
+    border: solid black;
+    border-radius: 50px;
+}
+
+.page-anthonin .lien-Retour{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid red;
+    color: red;
+    text-decoration: None;
+}
+
+.page-anthonin .Contact img{
+    width: 10%;
+}
+
+.page-index header{
+    display: grid;
+    justify-content: center;
+    display: inline-block;
+    padding: 400px;
+}
+
+.page-index h1 {
     background-color: black;
-    
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-index a{
+    background-color: bisque;
+    border-radius: 50px;
+    padding:20px;
+    text-decoration: None;
+    color: black;
+    border: solid;
+}
+
+.page-index a:hover{
+    color: white;
 }
