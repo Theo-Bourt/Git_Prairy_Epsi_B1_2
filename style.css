@@ -183,3 +183,154 @@
     transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
+
+.page-anthonin h1{
+    background-color: rgb(2, 109, 248);
+    color:white;
+    padding: 10px;
+}
+
+.page-anthonin .lien {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.page-anthonin .lien a{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: rgb(0, 132, 255);
+    padding: 10px;
+    border-radius: 50px;
+    border: solid rgb(0, 132, 255);
+    text-decoration: None;
+}
+
+.lien a:visited{
+    color:black;
+}
+
+.page-anthonin .lien-Activités:hover{
+    color: palevioletred;
+}
+
+.page-anthonin .lien-Expériences:hover{
+    color: orange;
+}
+
+.page-anthonin .lien-Passion:hover{
+    color: yellow;
+}
+
+.page-anthonin .lien-Qualités:hover{
+    color: purple;
+}
+
+.page-anthonin .lien-Contact:hover{
+    color: cyan;
+}
+
+.page-anthonin .lien-Retour:hover{
+    color: magenta;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.page-anthonin h2{
+    display: inline-block;
+    background-color: rgb(9, 80, 233);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-anthonin .Description h2:hover{
+    color: pink;
+}
+
+.page-anthonin .Activités h2:hover{
+    color: palevioletred;
+}
+
+.page-anthonin .Expériences h2:hover{
+    color: orange;
+}
+
+.page-anthonin .Passion h2:hover{
+    color: yellow;
+}
+
+.page-anthonin .Qualités h2:hover{
+    color: purple;
+}
+
+.page-anthonin .Contact h2:hover{
+    color: cyan;
+}
+
+.page-anthonin .Contact{
+    background-color: rgb(6, 71, 248);
+    color: white;
+    text-align: center;
+}
+
+.page-anthonin .Contact a{
+    display: grid;
+    display: inline-block;
+    background-color: white;
+    border: solid black;
+    border-radius: 50px;
+}
+
+.page-anthonin .lien-Retour{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid rgb(0, 140, 255);
+    color: rgb(0, 162, 255);
+    text-decoration: None;
+}
+
+.page-anthonin .Contact img{
+    width: 10%;
+}
+
+body.page-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #181717;
+}
+
+.page-index h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 5px solid grey;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-index a{
+    background-color: bisque;
+    border-radius: 50px;
+    padding:20px;
+    text-decoration: None;
+    color: rgb(0, 0, 0);
+    border:5px solid rgb(99, 99, 99);
+}
+
+.page-index a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.432);
+}
