@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Anthonin Chesneau</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Blog - Theo Bourt</title>
+    <link rel="stylesheet" href="Theo.css">
 </head>
-<body>
-
-    <nav>
+<body class="Theo-body">
+    <button id="retour-Theo"> Retour</button>
+    <nav class="Theo-nav">
         <ul>
             <li><a href="#Activités">Activités</a></li>
             <li><a href="#Expériences">Expériences</a></li>
@@ -19,17 +19,23 @@
     
     </nav>
 
-    <h1>Blog</h1>
+    <h1 class="Theo-h1">Blog</h1>
 
-    <header class="Description_Anthonin">
-        <h2>Description</h2>
-        <p>Bonjour je m'appelle Theo Bourt, j'ai 24 ans je suis en école d'ingénerie informatique à l'EPSI. 
-            Originaire de paris, j'habite actuellement à Bordeaux et j'ai comme ambition d'être Data Analyst.
-        </p>
+    <header class="Theo-header Description-Theo">
+        <h2 class="Theo-h2"><strong>Description</strong></h2>
+
+        <div class="Theo-description-container">
+
+         <img src="Photo-Theo.jpg" alt="Photo de Theo Bourt" class="Theo-photo">
+
+         <p class="Theo-description-texte">Bonjour je m'appelle Theo Bourt, j'ai 24 ans je suis en école d'ingénerie informatique à l'EPSI. 
+             Originaire de paris, j'habite actuellement à Bordeaux et j'ai comme ambition d'être Data Analyst.
+         </p>
+        </div>
     </header>
 
-    <section id="Activités" class="Activités_Anthonin">
-        <h2><strong>Mes Activités</strong></h2>
+    <section id="Activités" class="Theo-section Activités-Theo">
+        <h2 class="Theo-h2"><strong>Mes Activités</strong></h2>
         <ul>
             <li>Lecture</li>
             <li>Sport</li>
@@ -37,33 +43,46 @@
         </ul>
     </section>
 
-    <section id="Expériences" class="Expériences_Anthonin">
-        <h2>Expériences</h2>
+    <section id="Expériences" class="Theo-section Expériences-Theo">
+        <h2 class="Theo-h2"><strong>Expériences</strong></h2>
         <p>Lors de mon stage en bureau d’études, j’ai participé à la conception et à la modélisation de pièces industrielles à l’aide de logiciels de CAO. J’ai également collaboré avec les ingénieurs pour adapter les plans aux contraintes techniques et optimiser la fabrication des produits.</p>
     </section>
 
-    <section id="Passion" class="Passion_Anthonin">
-        <h2>Passion</h2>
+    <section id="Passion" class="Theo-section Passion-Theo">
+        <h2 class="Theo-h2"><strong>Passion</strong></h2>
         <ul>
             <li>Voyage</li>
             <li>Sport</li>
             <li>Cinema</li>
             <li>Mode</li>
+            <li>Architecture & Design</li>
             <li>Automobile</li>
         </ul>
     </section>
 
-    <sectiont id="Qualités" class="Qualités_Anthonin">
-        <h2>Qualités</h2>
+    <section id="Qualités" class="Theo-section Qualités-Theo">
+        <h2 class="Theo-h2"><strong>Qualités</strong></h2>
         <ul>
             <li>Rigoureux</li>
             <li>Ambitieux</li>
             <li>Sociable</li>
         </ul>
-    </sectiont>
+    </section>
 
-    <section id="Contact" class="Contact_Anthonin"></section>
-        <h2>Contact</h2>
-        <p>📧-bourt.theo@gmail.com</p>
+    <section id="Contact" class="Theo-section Contact-Theo">
+        <h2 class="Theo-h2"><strong>Contact</strong></h2>
+        <p>bourt.theo@gmail.com</p>
+        <p>
+            <a href="https://www.linkedin.com/home?originalSubdomain=fr"
+            target="_blank"
+            rel="noopener noreforever"
+            class="Theo-link">
+            Mon Linkedin 
+
+            <span class="Theo-span">(ne marche pas encore car mon compte est momentanément bloqué)</a></span>
+        </p>
+
+    </section>
+
 </body>
 </html>
