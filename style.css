@@ -185,7 +185,7 @@
 }
 
 .page-anthonin h1{
-    background-color: rgb(2, 109, 248);
+    background-color: rgb(7, 20, 48);
     color:white;
     padding: 10px;
 }
@@ -198,13 +198,13 @@
    gap: 20px;
 }
 
-.page-anthonin .lien a{
+.page-anthonin a{
     display: inline-block;
     background-color: antiquewhite;
-    color: rgb(0, 132, 255);
+    color: rgb(40, 50, 59);
     padding: 10px;
     border-radius: 50px;
-    border: solid rgb(0, 132, 255);
+    border: solid rgb(37, 43, 49);
     text-decoration: None;
 }
 
@@ -242,7 +242,7 @@ li{
 
 .page-anthonin h2{
     display: inline-block;
-    background-color: rgb(9, 80, 233);
+    background-color: rgb(7, 20, 48);
     color: white;
     border-radius: 30px;
     padding: 10px;
@@ -274,8 +274,18 @@ li{
     color: cyan;
 }
 
+.page-anthonin .lien-Page{
+    display: flex;
+    justify-content: end;
+}
+
+.page-anthonin .lien-Page a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.548);
+}
+
 .page-anthonin .Contact{
-    background-color: rgb(6, 71, 248);
+    background-color: rgb(7, 20, 48);
     color: white;
     text-align: center;
 }
@@ -288,18 +298,13 @@ li{
     border-radius: 50px;
 }
 
-.page-anthonin .lien-Retour{
-    display: inline-block;
-    background-color: antiquewhite;
-    padding: 10px;
-    border-radius: 50px;
-    border: solid rgb(0, 140, 255);
-    color: rgb(0, 162, 255);
-    text-decoration: None;
-}
-
 .page-anthonin .Contact img{
     width: 10%;
+}
+
+.page-anthonin .Contact a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.548);
 }
 
 body.page-index{
