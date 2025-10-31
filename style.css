@@ -343,7 +343,7 @@ body.page-index{
 
 /* -----------------------PARTIE DE THEO-------------------------- */
 
- .Theo-body  {
+  .Theo-body  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -356,28 +356,36 @@ body.page-index{
     transition: all 0.5s ease;
 }
 
-#retour-Theo:hover {
+.retour-Theo:hover {
     transform: translate(5px);
 }
 
-#retour-Theo {
+.retour-Theo {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: aliceblue;
-    color: black;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
 }
 
+.Theo-btn-retour {
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.Theo-nav a:hover {
+    color: rgb(210, 102, 8);
+}
 
 .Theo-nav {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: rgb(103, 100, 110);
+    z-index: 1000;
 }
 
 .Theo-nav ul{
@@ -385,7 +393,7 @@ body.page-index{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
     gap: 50px;
 }
 
@@ -393,6 +401,7 @@ body.page-index{
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.5s ease;
 }
 
 
@@ -467,7 +476,7 @@ body.page-index{
     border-left: 6px solid rgb(210, 102, 8);
     text-align: center;
     padding: 50px 50px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 10px black;
 }
 
 .Theo-link {
