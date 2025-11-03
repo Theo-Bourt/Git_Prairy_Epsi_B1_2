@@ -14,12 +14,20 @@
     color:#2a4d69;
 }
 
+.page-lola .nav-lola{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+
+} 
 .page-lola h3 a{
     color:#2a4d69;
     padding:8px 16px;
     background-color: #a9d6e5;
     border-radius: 20px;
     margin:20px;
+
 }
 
 .page-lola .presentation{
@@ -29,7 +37,7 @@
     gap: 30px;
     background-color: white;
     border-radius:20px ;
-    margin: 30px;
+    margin: 30px auto; 
     max-width: 800px;
     padding: 30px;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
@@ -90,12 +98,21 @@
     padding: 15px 20px;
     border-radius: 15px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+    margin: 30px auto;
+    text-align: center;
 }
 
 /* -----------------------PARTIE DE MAHE-------------------------- */
 
 
-.page-mahe .RETOUR {
+.page-mahe .Lien{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.page-mahe .Lien a{
     text-decoration: none;
     display: inline-block;
     color: rgb(255, 255, 255);
@@ -106,7 +123,7 @@
     transition: 0.3s;
 }
 
-.page-mahe .RETOUR:hover {
+.page-mahe a:hover {
     color: #f1c40f;
 }
 
@@ -134,30 +151,24 @@
     font-weight: 600;
     transition: 0.3s;
 }
-
 .page-mahe ul li a:hover {
     color: #f1c40f;
 }
-
 .page-mahe h1 {
     color: rgb(0, 0, 0);
     text-align: center;
 }
-
-
-
 .page-mahe section {
     max-width: 800px;
     margin: 20px auto; 
     padding: 20px;
-    background-color: burlywood;
-    border: 3px solid burlywood;
+    background-color: orange;
+    border: 3px solid orange;
     border-radius: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .page-mahe section:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
@@ -171,15 +182,14 @@
     display: block; 
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid burlywood;
-    background-color: burlywood;
+    border: 2px solid mediumturquoise;
+    background-color: mediumturquoise;
     border-radius: 30px;
     max-width: 700px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: all 0.3s ease;
 }
-
 .page-mahe .Activités_Mahe:hover,
 .page-mahe .Expériences_Mahe:hover,
 .page-mahe .Passion_Mahe:hover,
@@ -189,9 +199,8 @@
 }
 
 /* -----------------------PARTIE DE ANTHONIN-------------------------- */
-
 .page-anthonin h1{
-    background-color: rgb(2, 109, 248);
+    background-color: rgb(7, 20, 48);
     color:white;
     padding: 10px;
 }
@@ -204,13 +213,13 @@
    gap: 20px;
 }
 
-.page-anthonin .lien a{
+.page-anthonin a{
     display: inline-block;
     background-color: antiquewhite;
-    color: rgb(0, 132, 255);
+    color: rgb(40, 50, 59);
     padding: 10px;
     border-radius: 50px;
-    border: solid rgb(0, 132, 255);
+    border: solid rgb(37, 43, 49);
     text-decoration: None;
 }
 
@@ -248,7 +257,7 @@ li{
 
 .page-anthonin h2{
     display: inline-block;
-    background-color: rgb(9, 80, 233);
+    background-color: rgb(7, 20, 48);
     color: white;
     border-radius: 30px;
     padding: 10px;
@@ -280,8 +289,18 @@ li{
     color: cyan;
 }
 
+.page-anthonin .lien-Page{
+    display: flex;
+    justify-content: end;
+}
+
+.page-anthonin .lien-Page a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.548);
+}
+
 .page-anthonin .Contact{
-    background-color: rgb(6, 71, 248);
+    background-color: rgb(7, 20, 48);
     color: white;
     text-align: center;
 }
@@ -294,19 +313,16 @@ li{
     border-radius: 50px;
 }
 
-.page-anthonin .lien-Retour{
-    display: inline-block;
-    background-color: antiquewhite;
-    padding: 10px;
-    border-radius: 50px;
-    border: solid rgb(0, 140, 255);
-    color: rgb(0, 162, 255);
-    text-decoration: None;
-}
-
 .page-anthonin .Contact img{
     width: 10%;
 }
+
+.page-anthonin .Contact a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.548);
+}
+
+/* -----------------------PARTIE DE INDEX-------------------------- */
 
 body.page-index{
     display: flex;
@@ -343,7 +359,7 @@ body.page-index{
 
 /* -----------------------PARTIE DE THEO-------------------------- */
 
-.Theo-body {
+.Theo-body  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -356,36 +372,28 @@ body.page-index{
     transition: all 0.5s ease;
 }
 
-.retour-Theo:hover {
+#retour-Theo:hover {
     transform: translate(5px);
 }
 
-.retour-Theo {
+#retour-Theo {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
-.Theo-btn-retour {
-    display: inline-block;
-    background-color: black;
-    color: aliceblue;
-    padding: 10px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-}
-
-.Theo-nav a:hover {
-    color: rgb(210, 102, 8);
-}
 
 .Theo-nav {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: rgb(103, 100, 110);
-    z-index: 1000;
 }
 
 .Theo-nav ul{
@@ -393,7 +401,7 @@ body.page-index{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
     gap: 50px;
 }
 
@@ -401,7 +409,6 @@ body.page-index{
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.5s ease;
 }
 
 
@@ -476,7 +483,7 @@ body.page-index{
     border-left: 6px solid rgb(210, 102, 8);
     text-align: center;
     padding: 50px 50px;
-    box-shadow: 0 5px 10px black;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 }
 
 .Theo-link {
